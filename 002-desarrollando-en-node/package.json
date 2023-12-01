@@ -1,0 +1,13 @@
+{
+  "name": "002-desarrollando-en-node",
+  "version": "0.0.1",
+  "description": "Mi primera aplicación real de NodeJS",
+  "main": "./src/app",
+  "scripts": {
+    "start": "node ./src/app",
+    "start:dev": "echo \"Hola mundo desde dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Camilo López Morales",
+  "license": "ISC"
+}
