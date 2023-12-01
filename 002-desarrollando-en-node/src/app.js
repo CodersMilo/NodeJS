@@ -1,5 +1,6 @@
 const { emailTemplate } = require("./js-foundation/001-template");
 const { getUserById } = require("./js-foundation/003-callbacks");
+const { makeBuildPerson } = require("./js-foundation/004-factory-functions");
 
 require("./js-foundation/002-destructuring");
 
@@ -10,3 +11,5 @@ getUserById(1, (err, res) => {
   if (err) throw new Error(err);
   console.log(res);
 });
+
+console.log(makeBuildPerson({ name: 'Jhon', birthDate: '2003-12-12' }));
